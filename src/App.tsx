@@ -8,6 +8,7 @@ import Timer from './components/Timer'
 import UserList from './components/UserList'
 import ToggleDemo from './components/ToggleDemo'
 import LocalStorageDemo from './components/LocalStorageDemo'
+import NotesApp from './components/NotesApp'
 
 function App() {
 	return (
@@ -30,6 +31,8 @@ function App() {
 			<ToggleDemo />
 			<br />
 			<LocalStorageDemo />
+			<br />
+			<NotesApp />
 		</div>
 	)
 }
