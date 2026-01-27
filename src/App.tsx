@@ -6,6 +6,8 @@ import TaskList from './components/TaskList'
 import DocumentTitle from './components/DocumentTitle'
 import Timer from './components/Timer'
 import UserList from './components/UserList'
+import ToggleDemo from './components/ToggleDemo'
+import LocalStorageDemo from './components/LocalStorageDemo'
 
 function App() {
 	return (
@@ -24,6 +26,10 @@ function App() {
 			<Timer />
 			<br />
 			<UserList />
+			<br />
+			<ToggleDemo />
+			<br />
+			<LocalStorageDemo />
 		</div>
 	)
 }
