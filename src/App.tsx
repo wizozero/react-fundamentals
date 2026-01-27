@@ -2,6 +2,7 @@ import Button from './components/Button'
 import Counter from './components/Counter'
 import LoginForm from './components/LoginForm'
 import UserProfile from './components/UserProfile'
+import TaskList from './components/TaskList'
 
 function App() {
 	return (
@@ -12,6 +13,8 @@ function App() {
 			<LoginForm />
 			<br />
 			<UserProfile />
+			<br />
+			<TaskList />
 		</div>
 	)
 }
