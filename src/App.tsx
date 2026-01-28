@@ -9,7 +9,8 @@
 // import ToggleDemo from './components/ToggleDemo'
 // import LocalStorageDemo from './components/LocalStorageDemo'
 // import NotesApp from './components/NotesApp'
-import ThemeApp from './components/theme/ThemeApp'
+// import ThemeApp from './components/theme/ThemeApp'
+import TabsDemo from './components/composition-patterns/TabsDemo'
 function App() {
 	return (
 		// <div style={{ padding: '20px' }}>
@@ -34,7 +35,8 @@ function App() {
 		// 	<br />
 		// 	<NotesApp />
 		// </div>
-		<ThemeApp />
+		// <ThemeApp />
+		<TabsDemo />
 	)
 }
 
